@@ -1,5 +1,5 @@
 # Fast and Strain‑Free Typing
-*Author:* Robert Winkler  
+*Author:* Robert Winkler, <mailto:robsi@duck.com>  
 *License:* [CC BY‑SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [![CC BY‑SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
