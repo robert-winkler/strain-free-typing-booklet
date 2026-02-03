@@ -10,23 +10,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the repository
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2️⃣ Install mdBook v0.5.2 (the version you reported)
+      # Install mdBook v0.5.2 (the version you reported)
       - name: Install mdBook
         run: |
           curl -L https://github.com/rust-lang/mdBook/releases/download/v0.5.2/mdbook-v0.5.2-x86_64-unknown-linux-gnu.tar.gz \
             | tar -xz
           sudo mv mdbook /usr/local/bin/
 
-      # 3️⃣ Build the book
+      # Install Pandoc and XeLaTeX
+      - name: Install Pandoc and XeLaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      # Build the book
       - name: Build mdBook
         run: |
           mdbook build .
 
-      # 4️⃣ Deploy the built site to GitHub Pages
+      # Deploy the built site to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
