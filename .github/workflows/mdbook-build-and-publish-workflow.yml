@@ -40,7 +40,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GH_TOKEN }}
           # The output directory is the default `book/html`
           publish_dir: book/html
           # Optional: keep the history of the gh‑pages branch
