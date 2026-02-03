@@ -1,0 +1,45 @@
+# -------------------------------------------------
+# Basic book information
+# -------------------------------------------------
+[book]
+title = "Fast and Strain‑Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography"
+authors = ["Robert Winkler"]
+language = "en"
+src = "src"
+
+# -------------------------------------------------
+# HTML output (default mdBook HTML)
+# -------------------------------------------------
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+fold = { enable = true }
+git-repository-url = "https://github.com/robert-winkler/fast-strain-free-typing"
+
+# -------------------------------------------------
+# Pandoc‑based outputs (PDF, EPUB, extra HTML)
+# -------------------------------------------------
+[output.pandoc]
+# The plugin is invoked for each profile you define.
+# Each profile maps to a pandoc output format.
+
+# ---- PDF -------------------------------------------------
+[output.pandoc.profile.pdf]
+output-file = "strain-free-typing.pdf"
+to = "latex"                     # pandoc “to” format
+standalone = true
+number-sections = true
+toc = true
+toc-depth = 3
+# You can pass any extra pandoc arguments here:
+# e.g. `pdf-engine = "xelatex"` if you prefer xelatex.
+pdf-engine = "xelatex"
+
+# ---- EPUB ------------------------------------------------
+[output.pandoc.profile.epub]
+output-file = "strain-free‑typing.epub"
+to = "epub3"
+standalone = true
+toc = true
+metadata = { title = "Fast and Strain‑Free Typing", author = "Robert Winkler" }
+

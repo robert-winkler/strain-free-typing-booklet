@@ -1,0 +1,37 @@
+name: mdBook Build & Publish
+
+# Run on every push to the default branch (change if you use a different one)
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ Install mdBook v0.5.2 (the version you reported)
+      - name: Install mdBook
+        run: |
+          curl -L https://github.com/rust-lang/mdBook/releases/download/v0.5.2/mdbook-v0.5.2-x86_64-unknown-linux-gnu.tar.gz \
+            | tar -xz
+          sudo mv mdbook /usr/local/bin/
+
+      # 3️⃣ Build the book
+      - name: Build mdBook
+        run: |
+          mdbook build .
+
+      # 4️⃣ Deploy the built site to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # The output directory is the default `book/html`
+          publish_dir: book/html
+          # Optional: keep the history of the gh‑pages branch
+          keep_files: false
