@@ -6,6 +6,18 @@
 
 A pocket‑size guide covering mechanical keyboards, ergonomics, and stenography.
 
+## mdBook: HTML, PDF, and epub creation
+If you are lucky (i.e. the compilation on the GitHub repository worked), you can browse the current version of the booklet on: 
+<https://robert-winkler.github.io/strain-free-typing-booklet/>
+
+You can build the PDF and epub versions locally, using
+~~~
+mdbook build
+~~~
+within the cloned repository.
+
+Of course, you need `mdbook`, and `mdbook-pandoc` installed, as well as their dependencies.
+
 ## Contributing
 Community contributions are welcome!
 
