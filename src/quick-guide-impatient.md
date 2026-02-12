@@ -32,6 +32,6 @@ First, consult your doctor. Depending on the severity, dictation software and a 
 
 Feel free to reach out with questions. Good luck!
 
-## I’m a gamer/programmer and want the optimal keyboard!
+## I’m a gamer/programmer and want the best keyboard on Earth!
 
 Head to the hardware sections and explore programming your keyboard with QMK. Building and testing different keyboards can be both practical and fun!
