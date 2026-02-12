@@ -1,37 +1,37 @@
-# A quick guide for the inpatient
+# A Quick Guide for the Impatient
 
-OK. You need a quick solution for an urgent problem? I'll try to hint you to the sections of the book which are most relevant for your case.
+You need a quick solution for an urgent problem? Here’s how to find the most relevant topics for your needs.
 
-I did not classify for increased productivity or health aspects, since they are correlated.
+I haven’t separated advice by productivity or health, since the two are closely linked.
 
-## I don't want to spend money; I just want to type faster and more ergonomically
+## I don’t want to spend money; I just want to type faster and more ergonomically
 
-Easy. Install and learn the Colemak keyboard layout (see section \ref{section-alternative-keyboard-layouts}, page \pageref{section-alternative-keyboard-layouts}).
+Start by installing and learning the Colemak keyboard layout. In a few weeks you will type faster and feel more relaxed.
 
-However, consider in addition to buy a mechanical keyboard. You won't regret the investment of about 100 USD.
+For even better results, consider investing in a mechanical keyboard. You won’t regret spending around 100 USD.
 
-## I don't want to learn another keyboard layout, but I'm ready to spend some money
+## I don’t want to learn another keyboard layout, but I’m ready to spend some money
 
-Get a mechanical keyboard. Depending on your motivation, a keyboard with reduced size or a split keyboard might be helpful. Make sure buying the correct switches (see page \pageref{switches}).
+Buy a mechanical keyboard. Depending on your needs, a compact - such as the 40% ortholinear Planck keyboard with 4 × 12 grid layout - or a split keyboard could be especially helpful. Just make sure to choose the right switches.
 
-Anyway, learning Colemak would further improve ergonomic and fast typing.
+That said, learning Colemak will additionally improve both your ergonomics and typing speed.
 
 ## I want to type really fast!
 
-With a suitable keyboard layout such as Dvorak or Colemak you can roughly double your typing speed (50-100 words per minute are realistic); again, see section \ref{section-alternative-keyboard-layouts}, page \pageref{section-alternative-keyboard-layouts}.
+Switching to a layout like Dvorak or Colemak can roughly double your typing speed (50–100 words per minute is realistic).
 
-For captioning in real-time (CART), with 200+ words per minute, you should learn Stenography. Suitable keyboards and software (Plover) are covered in section xx, page xx.
+For captioning in real-time (CART) at 200+ words per minute, look into stenography. There are specialized keyboards and software (such as Plover) designed for this purpose.
 
 ## I want to improve my productivity
 
-Use the keyboard for controlling your software, instead of the mouse, because constantly switching between keyboard and mouse is a huge productivity killer. Section xx presents editors, browser plugins etc. for keyboard-centric work.
+Minimize mouse use - Constantly switching between keyboard and mouse use is a huge productivity killer. Controlling your software via keyboard is far more efficient. There are editors, browser plugins, and other tools that make keyboard-centric work seamless.
 
-## I got a serious health problem with my hands. How can I continue working?
+## I have a serious hand injury. How can I keep working?
 
-See you medical doctor. However, depending on severity, I would go for dictation and a custom-made split mechanical keyboard programmed for your needs. Read all the sections; they will give you some ideas of what is possible (e g. auto-shift, one-handed typing etc ).
+First, consult your doctor. Depending on the severity, dictation software and a custom split mechanical keyboard tailored to your requirements may help. The book covers a range of possibilities, from auto-shift to one-handed typing.
 
-Write me in case of questions. Good luck!
+Feel free to reach out with questions. Good luck!
 
-## I'm a gamer/ programmer and want the optimal keyboard!
+## I’m a gamer/programmer and want the optimal keyboard!
 
-Get to the hardware sections xx and program the keyboard with QMK (section xx). Build different keyboards and have fun!
+Head to the hardware sections and explore programming your keyboard with QMK. Building and testing different keyboards can be both practical and fun!
