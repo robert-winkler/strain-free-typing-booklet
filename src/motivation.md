@@ -1,20 +1,20 @@
-# My personal motivation
+# My Personal Motivation
 
-As a scientist, I need to write a lot: Articles, book chapters, research proposals, emails, project reports, etc. Unfortunately, I lost my left index finger mobility after an accident (remember: always use a bottle opener!), which soon caused pain in the whole hand while typing.  
+As a scientist, I write constantly: articles, book chapters, research proposals, emails, and project reports. Unfortunately, after losing mobility in my left index finger due to an accident (a reminder: always use a bottle opener!), typing soon caused pain throughout my hand.  
 
-Prolonged working/gaming with an unsuitable keyboard set-up will lead sooner or later to health problems, such as an repetitive stain injury (RSI) and consequently to reduced productivity. Thus, we should analyze possible risks and optimize our environment.
+Prolonged work or gaming with an unsuitable keyboard setup will eventually lead to health issues, such as repetitive strain injury (RSI), and reduced productivity. It’s essential to analyze potential risks and optimize our workspace.  
 
-Testing alternative keyboards and typing software, I found that the current 'standard' set-ups are really bad, and alternatives are available for no or little money. 
+After testing alternative keyboards and typing software, I discovered that the current "standard" setups are surprisingly poor—and better alternatives are available at little or no cost.  
 
-A mechanical keyboard (in fact, the keyboards are electronic, but use a physical spring mechanism) with suitable switches immediately results in a releave for the hands. Ideally, the keyboard also improved geometry, such as reduced size, and an ortholinear layout. Nowadays, the design and components of keyboards can be adapted to the individual user. E.g., split keyboards for a more natural hand position and switches with soft springs for lighter pressing. In addition, tiny keyboards minimize finger and hand movements, such as reaching the mouse.
+A mechanical keyboard (technically electronic but using physical spring mechanisms) with suitable switches immediately relieves hand strain. Ideally, the keyboard should also feature improved geometry, such as a compact size and an ortholinear layout. Today, keyboards can be customized to fit individual needs, including split designs for a more natural hand position and switches with soft springs for lighter keystrokes. Smaller keyboards also minimize finger and hand movements, such as reaching for the mouse.  
 
-Simply changing the keymap layout from QWERTY to Colemak makes writing more ergonomic, and after some training, doubles the writing speed. Besides, multilingual typing and programming are supported. 
+Switching from QWERTY to Colemak makes typing more ergonomic and, after some practice, can even double your typing speed. It also supports multilingual typing and programming.  
 
-But the QWERTY layout is only one anachronism of current keyboards. For example, it is absurd that we still simulate shifting an old typewriter's mechanic to capitalize a letter. Even worse, we do this frequent movement with our weakest fingers, the 'pinkies,' that need to be stretched on large keyboards for reaching the 'shift' keys. In contrast, a keyboard with programmable auto-shift capitalizes letters if the user presses the key just slightly longer.  
+But QWERTY is just one of many outdated aspects of modern keyboards. For example, it’s absurd that we still simulate shifting a typewriter’s mechanism to capitalize letters—especially since we perform this frequent action with our weakest fingers, the pinkies, which must stretch awkwardly to reach the 'shift' keys on large keyboards. In contrast, programmable keyboards with auto-shift can capitalize letters when a key is held slightly longer.
+This guide helps readers choose the right typing strategy—whether for professional writers, gamers, programmers, accountants, or those with health issues like RSI—by exploring keyboards, layouts, and software.  
 
- 
-This guide helps choose a suitable typing strategy (keyboard, layout, software, etc.) for different users like professional writers, gamers, programmers, accountants, and people with health problems, including repetitive strain injury (RSI).
+I also cover building and programming custom keyboards, from selecting designs and components to configuring keymap layouts and special features like OLED displays. Additionally, I introduce stenography for ultra-fast typing and software for mouse-free workflows.  
 
-As well, I introduce the building and programming of custom keyboards, including choosing a suitable design and components, keymap layouts, and special features such as OLED displays. Also, stenography is introduced, allowing typing with very high speed, and software for mouse-free working.  
+Custom keyboards don’t have to be expensive: a split mechanical keyboard can be built for $100–200, is fully repairable, and promotes ergonomic, productive, and sustainable typing.  
 
-Personal-fit keyboards are not expensive; a split keyboard with mechanical switches can be built for 100-200 USD and is repairable, and therefore contributes to ergonomic and productive typing, and sustainability. 
+_Robert Winkler_
