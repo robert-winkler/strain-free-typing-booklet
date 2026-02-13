@@ -14,7 +14,7 @@ For writing text, the letters of the alphabet must be available on the keyboard.
 
 However, standard keyboard layouts are country- and language-specific. For example, German keyboards have letters such as `ä` and `ß`, whereas Spanish keyboards have letters with different diacritics (`é`, `ñ`) and additional punctuation symbols (`¿`, `¡`). Multilingual writing is therefore challenging and requires, for example, operating-system-specific switching of keyboard layouts.
 
-![Multilingual Colemak layout. The special letters and symbols are accessible with modifier keys.](../assets/figures/fig-KB_Colemak.png)
+![Multilingual Colemak layout. The special letters and symbols are accessible with modifier keys.](figures/fig-KB_Colemak.png)
 
 > **Hack:** The Colemak layout is not only more ergonomic, but also adds many letters and symbols for multilingual typing out-of-the-box (see figure above).
 
@@ -42,7 +42,7 @@ For the Cursor-key Row, all cursor keys are arranged in a row instead of positio
 
 You can define a modifier key (such as ALT) plus the four keys below your left/right hand in home position as cursor keys.
 
-![Arranging the cursor keys in a row (right) is more ergonomic than the standard layout with the up-key above the down-key (left).](../assets/figures/linear-cursor.png)
+![Arranging the cursor keys in a row (right) is more ergonomic than the standard layout with the up-key above the down-key (left).](figures/linear-cursor.png)
 
 > **Hack:** Instead of moving your pinkie finger for each capital letter, you may program an autoshift function, e.g., using QMK on supported keyboards.
 
@@ -58,15 +58,15 @@ Consider changing the function of CAPS-LOCK to something more useful, e.g., a Ba
 
 - **Size:** Most full-size (or 100%) keyboards have more than 100 keys and are far too large. An excess size is inconvenient because the fingers have to travel a lot. Thus, smaller keyboards are more ergonomic. About 50 keys are sufficient for the Latin alphabet and the most important symbols and control keys. Additional keys can be implemented using layers. Of course, smaller keyboards are also more portable.
 
-![US ANSI keyboard layout with 104 keys.](../assets/figures/fig-ansi-104-full-size-scaled.png)
+![US ANSI keyboard layout with 104 keys.](figures/fig-ansi-104-full-size-scaled.png)
 
-![ISO-style 60% keyboard BM60.](../assets/figures/fig-bm60-standard-scaled.png)
+![ISO-style 60% keyboard BM60.](figures/fig-bm60-standard-scaled.png)
 
-![The Planck keyboard with 47 keys ('40%'). Additional layers compensate for missing keys. The keys left and right of the spacebar switch to the lower and higher layer.](../assets/figures/fig-planck-standard-scaled.png)
+![The Planck keyboard with 47 keys ('40%'). Additional layers compensate for missing keys. The keys left and right of the spacebar switch to the lower and higher layer.](figures/fig-planck-standard-scaled.png)
 
 > **Hack:** Simply choosing a smaller keyboard can improve your typing experience (ergonomic working and speed) because your fingers and hands need to move less.
 
-![Comparison of a 100% and a 40% keyboard.](../assets/figures/fig-comparison-100-40-percent-keyboard-scaled.png)
+![Comparison of a 100% and a 40% keyboard.](figures/fig-comparison-100-40-percent-keyboard-scaled.png)
 
 ---
 
@@ -87,7 +87,7 @@ Our fingers don't have the same lengths.
 
 ### Ortholinear Layout
 
-![Which number-block layout seems more logical and easy to type? Why should we not use an ortholinear layout (right) for the complete keyboard?](../assets/figures/ortho-numblock.png)
+![Which number-block layout seems more logical and easy to type? Why should we not use an ortholinear layout (right) for the complete keyboard?](figures/ortho-numblock.png)
 
 ### Tilting
 
@@ -118,4 +118,4 @@ My daily driver is a Corne split keyboard, steno compatible. The split layout wi
 
 ## Keyboard Examples
 
-![The Corne keyboard.](../assets/figures/fig-crkbd-standard-scaled.png)
+![The Corne keyboard.](figures/fig-crkbd-standard-scaled.png)
