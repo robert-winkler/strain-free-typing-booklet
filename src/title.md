@@ -1,10 +1,3 @@
----
-title: Fast and Strain-Free Typing
-author: Robert Winkler
-email: robsi@duck.com
-license: CC BY-SA 4.0
----
-
 # Fast and Strain-Free Typing
 
 **Author:** [Robert Winkler](mailto:robsi@duck.com)
