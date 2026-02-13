@@ -22,27 +22,24 @@ However, standard keyboard layouts are country- and language-specific. For examp
 
 ### Number (NUM)-Keys Block
 
-| 7 | 8 | 9 | /  |
-|---|---|---|----|
-| 4 | 5 | 6 | *  |
-| 1 | 2 | 3 | -  |
-| # | 0 | . | +  |
+![A number block is found on many full-size keyboards. If you are only casually entering numbers, it might be obsolete and make your workflow more tedious, if you frequently need to move your hand to the mouse. Contrary, for people that frequently require a number block, such as accountants, a separate number block keyboard with mechanical switches might be useful.](figures/fig-numblock.png)
 
-*A compact laptop number block for the input of numbers and basic math operations. The `#` symbol represents the NUM-LOCK key for toggling the number block functions.*
 
 ### Function (F)-Keys Block
 
 `F1` `F2` `F3` ... `F12`
 
-### Cursor Keys
+### Arrow Keys
 
-> **Hack:** Define four keys in a row as cursor keys. Ideally, your fingers do not have to change row or column for moving the cursor.
+> **Hack:** Define four keys in a row as arrow keys. Ideally, your fingers do not have to change row or column for moving the cursor.
 
-For the Cursor-key Row, all cursor keys are arranged in a row instead of positioning the up cursor above the down keys. This way, the fingers can remain in place, and the movements are faster and more ergonomic. The vim editor uses the letters 'hjkl' for moving in the text. On QWERTY keyboards, those keys are on the home row of the right hand. Of course, this is still not ideal, since the index finger has to be moved for reaching 'h'. Besides, you should not use the QWERTY layout.
+For the arrow-key row, all cursor keys are arranged in a row instead of positioning the up cursor above the down keys. This way, the fingers can remain in place, and the movements are faster and more ergonomic. The vim editor uses the letters 'hjkl' for moving in the text. On QWERTY keyboards, those keys are on the home row of the right hand. Of course, this is still not ideal, since the index finger has to be moved for reaching 'h'. Besides, you should not use the QWERTY layout.
 
 You can define a modifier key (such as ALT) plus the four keys below your left/right hand in home position as cursor keys.
 
-![Arranging the cursor keys in a row (right) is more ergonomic than the standard layout with the up-key above the down-key (left).](figures/linear-cursor.png)
+![A) Standard arrangement of arrow keys in two rows. For moving up and down, your middle finger needs to move to anyther key.](figures/fig-arrow-keys-2-rows.png)
+
+![B) Linear arrangement of arrow keys in one row. The fingers can stay on their key, making movements faster and more ergonomic.](figures/fig-arrow-keys-1-row.png)
 
 > **Hack:** Instead of moving your pinkie finger for each capital letter, you may program an autoshift function, e.g., using QMK on supported keyboards.
 
