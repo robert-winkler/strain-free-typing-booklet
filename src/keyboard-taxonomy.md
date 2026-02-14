@@ -14,7 +14,12 @@ For writing text, the letters of the alphabet must be available on the keyboard.
 
 However, standard keyboard layouts are country- and language-specific. For example, German keyboards have letters such as `ä` and `ß`, whereas Spanish keyboards have letters with different diacritics (`é`, `ñ`) and additional punctuation symbols (`¿`, `¡`). Multilingual writing is therefore challenging and requires, for example, operating-system-specific switching of keyboard layouts.
 
-![Multilingual Colemak layout. The special letters and symbols are accessible with modifier keys.](figures/fig-KB_Colemak.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-KB_Colemak.png" alt="Multilingual Colemak layout" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Multilingual Colemak layout. The special letters and symbols are accessible with modifier keys.
+  </figcaption>
+</figure>
 
 > **Hack:** The Colemak layout is not only more ergonomic, but also adds many letters and symbols for multilingual typing out-of-the-box (see figure above).
 
@@ -22,12 +27,22 @@ However, standard keyboard layouts are country- and language-specific. For examp
 
 ### Number (NUM)-Keys Block
 
-![A number block is found on many full-size keyboards. If you are only casually entering numbers, it might be obsolete and make your workflow more tedious, if you frequently need to move your hand to the mouse. Contrary, for people that frequently require a number block, such as accountants, a separate number block keyboard with mechanical switches might be useful.](figures/fig-numblock.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-numblock.png" alt="A number block is found on many full-size keyboards. If you are only casually entering numbers, it might be obsolete and make your workflow more tedious, if you frequently need to move your hand to the mouse. Contrary, for people that frequently require a number block, such as accountants, a separate number block keyboard with mechanical switches might be useful." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    A number block is found on many full-size keyboards. If you are only casually entering numbers, it might be obsolete and make your workflow more tedious, if you frequently need to move your hand to the mouse. Contrary, for people that frequently require a number block, such as accountants, a separate number block keyboard with mechanical switches might be useful.
+  </figcaption>
+</figure>
 
 
 ### Function (F)-Keys Block
 
-`F1` `F2` `F3` ... `F12`
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-function-keys.png" alt="Typical row of function keys with some other (rarely used) keys; with one exception: the frequently needed `ESC` key." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Typical row of function keys with some other (rarely used) keys; with one exception: the frequently needed `ESC` key.
+  </figcaption>
+</figure>
 
 ### Arrow Keys
 
@@ -37,9 +52,19 @@ For the arrow-key row, all cursor keys are arranged in a row instead of position
 
 You can define a modifier key (such as ALT) plus the four keys below your left/right hand in home position as cursor keys.
 
-![A) Standard arrangement of arrow keys in two rows. For moving up and down, your middle finger needs to move to anyther key.](figures/fig-arrow-keys-2-rows.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-arrow-keys-2-rows.png" alt="A) Standard arrangement of arrow keys in two rows. For moving up and down, your middle finger needs to move to anyther key." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    A) Standard arrangement of arrow keys in two rows. For moving up and down, your middle finger needs to move to anyther key.
+  </figcaption>
+</figure>
 
-![B) Linear arrangement of arrow keys in one row. The fingers can stay on their key, making movements faster and more ergonomic.](figures/fig-arrow-keys-1-row.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-arrow-keys-1-row.png" alt="B) Linear arrangement of arrow keys in one row. The fingers can stay on their key, making movements faster and more ergonomic." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    B) Linear arrangement of arrow keys in one row. The fingers can stay on their key, making movements faster and more ergonomic.
+  </figcaption>
+</figure>
 
 > **Hack:** Instead of moving your pinkie finger for each capital letter, you may program an autoshift function, e.g., using QMK on supported keyboards.
 
@@ -55,15 +80,35 @@ Consider changing the function of CAPS-LOCK to something more useful, e.g., a Ba
 
 - **Size:** Most full-size (or 100%) keyboards have more than 100 keys and are far too large. An excess size is inconvenient because the fingers have to travel a lot. Thus, smaller keyboards are more ergonomic. About 50 keys are sufficient for the Latin alphabet and the most important symbols and control keys. Additional keys can be implemented using layers. Of course, smaller keyboards are also more portable.
 
-![US ANSI keyboard layout with 104 keys.](figures/fig-ansi-104-full-size-scaled.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-ansi-104-full-size-scaled.png" alt="US ANSI keyboard layout with 104 keys." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    US ANSI keyboard layout with 104 keys.
+  </figcaption>
+</figure>
 
-![ISO-style 60% keyboard BM60.](figures/fig-bm60-standard-scaled.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-bm60-standard-scaled.png" alt="ISO-style 60% keyboard BM60." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    ISO-style 60% keyboard BM60.
+  </figcaption>
+</figure>
 
-![The Planck keyboard with 47 keys ('40%'). Additional layers compensate for missing keys. The keys left and right of the spacebar switch to the lower and higher layer.](figures/fig-planck-standard-scaled.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-planck-standard-scaled.png" alt="The Planck keyboard with 47 keys ('40%'). Additional layers compensate for missing keys. The keys left and right of the spacebar switch to the lower and higher layer." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The Planck keyboard with 47 keys ('40%'). Additional layers compensate for missing keys. The keys left and right of the spacebar switch to the lower and higher layer.
+  </figcaption>
+</figure>
 
 > **Hack:** Simply choosing a smaller keyboard can improve your typing experience (ergonomic working and speed) because your fingers and hands need to move less.
 
-![Comparison of a 100% and a 40% keyboard.](figures/fig-comparison-100-40-percent-keyboard-scaled.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-comparison-100-40-percent-keyboard-scaled.png" alt="Comparison of a 100% and a 40% keyboard." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Comparison of a 100% and a 40% keyboard.
+  </figcaption>
+</figure>
 
 ---
 
@@ -84,7 +129,19 @@ Our fingers don't have the same lengths.
 
 ### Ortholinear Layout
 
-![Which number-block layout seems more logical and easy to type? Why should we not use an ortholinear layout (right) for the complete keyboard?](figures/ortho-numblock.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-numblock-staggered.png" alt="It's only me, or does a staggered layout for a number block look weired?" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    It's only me, or does a staggered layout for a number block look weired?
+  </figcaption>
+
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-numblock-ortho.png" alt="Which number-block layout seems more logical and easy to type? Why should we not use an ortholinear layout for the complete keyboard?" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Which number-block layout seems more logical and easy to type? Why should we not use an ortholinear layout for the complete keyboard?
+  </figcaption>
+</figure>
 
 ### Tilting
 
@@ -115,4 +172,9 @@ My daily driver is a Corne split keyboard, steno compatible. The split layout wi
 
 ## Keyboard Examples
 
-![The Corne keyboard.](figures/fig-crkbd-standard-scaled.png)
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/fig-crkbd-standard-scaled.png" alt="The Corne keyboard." style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The Corne keyboard.
+  </figcaption>
+</figure>
