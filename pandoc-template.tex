@@ -1,0 +1,70 @@
+%
+% Body text font is Palatino!
+%
+
+\documentclass[a5paper,pagesize,10pt,bibliography=totoc,numbers=noenddot,DIV=9,twoside=true]{scrbook}
+
+% twoside, openright
+\KOMAoptions{DIV=last}
+
+\usepackage[T1]{fontenc}
+\usepackage{menukeys}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\usepackage[numbers,sort&compress]{natbib}
+
+%% Pandoc: Tables
+\usepackage{longtable}
+\usepackage{booktabs}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage[sc]{mathpazo}
+\linespread{1.05}
+
+\usepackage{verbatim} % for comments
+\usepackage{listings} % for comments
+
+% Custom commands from original
+\newcommand{\q}[1]{>>\textit{#1}<<}
+
+% Hack boxes styling
+\usepackage[breakable]{tcolorbox}
+\newtcolorbox[auto counter, list inside=hacks]{hackbox}[1]{title=\textbf{Hack~\thetcbcounter: #1}}
+
+% Title and author from mdbook
+\title{$title$}
+\author{$author$}
+
+\begin{document}
+
+%=========================================
+\begin{titlepage}
+\centering
+\Huge{$title$}\\
+\vspace{10mm}
+\Large{$author$}\\
+\vspace{\fill}
+\centering \large{\date{\today}}
+\end{titlepage}
+
+%=========================================\newpage{}
+\newpage
+
+\tableofcontents
+
+\newpage
+\tcblistof[\chapter*]{hacks}{List of Hacks}
+
+$body$
+
+%% References
+\bibliographystyle{plainnat}
+$if(bibliography)$
+\bibliography{$bibliography$}
+$endif$
+
+\end{document}
