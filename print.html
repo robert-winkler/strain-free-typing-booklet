@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-6a8ed14d.js";
+            window.path_to_searchindex_js = "searchindex-1facd48b.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-abd97fc5.js"></script>
@@ -495,7 +495,12 @@ This guide helps readers choose the right typing strategy—whether for professi
 <p>Finally, one hand could be temporarily or permanently disabled, e.g., after an accident or because of a disease. In this case, all symbols and commands are ideally available on one hand with little movement. You can realize this with one half of a split keyboard, e.g., a Kyria keyboard with a large thumb cluster. One of the keys can be programmed to switch the layer to make the other side of the keyboard available.</p>
 <p>QMK swap hands feature</p>
 <div style="break-before: page; page-break-before: always;"></div>
-<h1 id="dictation-and-hybrid-input"><a class="header" href="#dictation-and-hybrid-input">Dictation and Hybrid Input</a></h1>
+<h1 id="dictation-and-hybrid-input-and-editing"><a class="header" href="#dictation-and-hybrid-input-and-editing">Dictation and Hybrid Input and Editing</a></h1>
+<p>Using dictation for text input has become much more viable, especially for multilingual users. For example, I switch constantly between German, English, and Spanish.</p>
+<p>A few years ago, reliable programs were scarce and struggled with accents, but modern tools like the open‑source OpenWhispr (<a href="https://openwhispr.com/">https://openwhispr.com/</a>) now connect to powerful inference models such as Voxtral 3 Turbo from &lt;Groq.com&gt;, which runs over 200 times faster than real time and even outpaces stenography.</p>
+<p>These systems can not only transcribe speech but also forward the text to an LLM for processing based on a keyword‑triggered prompt (e.g., “hey Whisperer”).</p>
+<p>This enables on‑the‑fly translation, email drafting, or other tasks.</p>
+<p>Nevertheless, the workflow still benefits from a final manual edit, making the combination of dictation and keyboard editing the most efficient hybrid approach.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="programming-keyboards"><a class="header" href="#programming-keyboards">Programming Keyboards</a></h1>
 <p>All right, you are serious and want to adopt the keyboard to your needs!</p>
@@ -710,13 +715,24 @@ rules.mk
 <p>Nevertheless, we always can connect our own nerdy device. And maybe one day, some big players follow.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="discord-channels"><a class="header" href="#discord-channels">Discord Channels</a></h1>
-<p>Discord (<a href="https://discord.com/">https://discord.com/</a>) is an online chatting platform. Several channels deal with building, programming, and using special keyboards:</p>
-<ul>
-<li><strong>QMK</strong>: Building and programming keyboards.</li>
-<li><strong>Colemak</strong>: Discussion and support for new Colemak users.</li>
-<li><strong>Plover</strong>: Very nice and helpful group for Steno/Plover friends.</li>
-<li><strong>Splitkb.com</strong>: Ideas for split keyboards; mainly focused on splitkb.com products, but open to other builds as well.</li>
-</ul>
+<p><a href="https://discord.com/">Discord</a> is a popular commercial platform for real-time communication, hosting many active communities dedicated to keyboard building, configuration, and usage. These servers are invaluable resources for troubleshooting, sharing builds, and connecting with fellow enthusiasts. While some members may sell keyboards or components, the primary focus of these communities is <strong>support, collaboration, and knowledge-sharing</strong>.</p>
+<p>Below are some of the most active and helpful Discord servers for keyboard-related topics:</p>
+<h2 id="qmk"><a class="header" href="#qmk">QMK</a></h2>
+<p><strong>Focus:</strong> Building, programming, and customizing keyboards using the <a href="https://qmk.fm/">QMK firmware</a>.
+<strong>Discord:</strong> <a href="https://discord.com/invite/qmk">Join the QMK Discord Server</a>
+<strong>Description:</strong> The official QMK community is a hub for developers and hobbyists working with open-source keyboard firmware. Whether you’re debugging a keymap, designing a custom layout, or exploring advanced features like layers and macros, this server offers expert guidance and a welcoming atmosphere. Unfortunately, programming <em>Quantum Mechanical Keyboards</em> is addictive.</p>
+<h2 id="colemak"><a class="header" href="#colemak">Colemak</a></h2>
+<p><strong>Focus:</strong> Discussion, support, and advocacy for the <a href="https://colemak.org/">Colemak keyboard layout</a>.
+<strong>Discord:</strong> <a href="https://discord.com/invite/rpbxP2REjZ">Join the Colemak Community Discord Server</a>
+<strong>Description:</strong> Ideal for both new and experienced Colemak users, this community provides a space to ask questions, share tips, and discuss ergonomics, efficiency, and layout customization. It’s a great place to connect with others who prioritize comfort and productivity in typing. Remember: Switching from QWERTY to Colemak is the fastest and cheapest way to improve typing speed and health 😉.</p>
+<h2 id="open-steno-plover"><a class="header" href="#open-steno-plover">Open Steno/ Plover</a></h2>
+<p><strong>Focus:</strong> Support and discussion for <a href="https://www.openstenoproject.org/plover/">Plover</a>, the open-source steno engine for machine shorthand.
+<strong>Discord:</strong> <a href="https://discord.me/plover">Join the Plover Discord Server</a>
+<strong>Description:</strong> A friendly and active group for steno enthusiasts, Plover users, and anyone curious about stenography. Whether you’re a beginner learning steno or a professional stenographer, this community welcomes all skill levels and offers resources for improving speed, accuracy, and workflow integration. You will also find there a vibrant group of javelin experts. You don’t need to be a nerd to participate.</p>
+<h2 id="splitkbcom"><a class="header" href="#splitkbcom">Splitkb.com</a></h2>
+<p><strong>Focus:</strong> Split keyboards, ergonomics, and builds—with a primary emphasis on <a href="https://splitkb.com/">splitkb.com</a> products, though all split keyboard discussions are welcome.
+<strong>Discord:</strong> <a href="https://discord.com/invite/kNScg7v">Join the splitkb.com Discord Server</a>
+<strong>Description:</strong> This server is perfect for exploring split keyboard designs, sharing build experiences, and getting advice on ergonomic setups. While it’s affiliated with splitkb.com, the community is open to discussing all types of split and ergonomic keyboards, making it a valuable resource for both beginners and seasoned builders. I started my keyboard journey with the Kyria several years back. On Thomas Baart’s web page you can find well-thought products and also advice on building split keyboard.</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="references"><a class="header" href="#references">References</a></h1>
 <p>The bibliography is defined in the <code>bibliography.bib</code> file and will be processed by mdbook-pandoc.</p>
