@@ -14,7 +14,7 @@ src = "src"
 default-theme = "light"
 preferred-dark-theme = "navy"
 fold = { enable = true }
-git-repository-url = "https://github.com/robert-winkler/fast-strain-free-typing"
+git-repository-url = "https://github.com/robert-winkler/strain-free-typing-booklet"
 
 # -------------------------------------------------
 # Pandoc‑based outputs (PDF, EPUB, extra HTML)

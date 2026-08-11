@@ -1,6 +1,8 @@
 # Summary
 
 - [Fast and Strain-Free Typing](./title.md)
+- [Preface: About This Book](./preface.md)
+- [Authors and Contributors](./authors.md)
 - [My Personal Motivation](./motivation.md)
 - [A Quick Guide for the Impatient](./quick-guide-impatient.md)
 - [The Hardware: Taxonomy of Keyboard Types](./keyboard-taxonomy.md)
