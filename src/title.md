@@ -6,4 +6,6 @@
 
 ---
 
+![Dactyl Manuform Keyboard Build](figures/cover/cover-image.jpg)
+
 *Build better keyboards, type faster, and protect your health.*

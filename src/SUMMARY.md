@@ -14,6 +14,7 @@
 - [Programming Keyboards with QMK](./programming-keyboards.md)
 - [I Just Want to Buy a Keyboard! But Which Should I Choose?](./buying-guide.md)
 - [I'm a Maker! How to Build Your Keyboard(s)](./building-keyboards.md)
+- [Keyboard Photo Gallery](./keyboard-photo-gallery.md)
 - [The Mouse; and How to Become Rat-Free](./mouse-alternatives.md)
 - [Keyboard-Friendly Programs](./keyboard-programs.md)
 - [Productivity: It's Not Only the Typing!](./productivity.md)

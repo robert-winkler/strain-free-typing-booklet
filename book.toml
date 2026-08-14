@@ -2,7 +2,7 @@
 # Basic book information
 # -------------------------------------------------
 [book]
-title = "Fast and Strain‑Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography"
+title = "Fast and Strain-Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography"
 authors = ["Robert Winkler"]
 language = "en"
 src = "src"
@@ -17,7 +17,7 @@ fold = { enable = true }
 git-repository-url = "https://github.com/robert-winkler/strain-free-typing-booklet"
 
 # -------------------------------------------------
-# Pandoc‑based outputs (PDF, EPUB, extra HTML)
+# Pandoc-based outputs (PDF, EPUB, extra HTML)
 # -------------------------------------------------
 [output.pandoc]
 # The plugin is invoked for each profile you define.
@@ -26,20 +26,17 @@ git-repository-url = "https://github.com/robert-winkler/strain-free-typing-bookl
 # ---- PDF -------------------------------------------------
 [output.pandoc.profile.pdf]
 output-file = "strain-free-typing.pdf"
-to = "latex"                     # pandoc “to” format
+to = "latex"
 standalone = true
 number-sections = true
 toc = true
 toc-depth = 3
-# You can pass any extra pandoc arguments here:
-# e.g. `pdf-engine = "xelatex"` if you prefer xelatex.
 pdf-engine = "xelatex"
 
 # ---- EPUB ------------------------------------------------
 [output.pandoc.profile.epub]
-output-file = "strain-free‑typing.epub"
+output-file = "strain-free-typing.epub"
 to = "epub3"
 standalone = true
 toc = true
-metadata = { title = "Fast and Strain‑Free Typing", author = "Robert Winkler" }
-
+metadata = { title = "Fast and Strain-Free Typing", author = "Robert Winkler", cover-image = "src/figures/cover/cover-image.jpg" }

@@ -14,7 +14,7 @@ Below are some of the most active and helpful Discord servers for keyboard-relat
 
 **Focus:** Discussion, support, and advocacy for the [Colemak keyboard layout](https://colemak.org/).  
 **Discord:** [Join the Colemak Community Discord Server](https://discord.com/invite/rpbxP2REjZ).  
-**Description:** Ideal for both new and experienced Colemak users, this community provides a space to ask questions, share tips, and discuss ergonomics, efficiency, and layout customization. It’s a great place to connect with others who prioritize comfort and productivity in typing. Remember: Switching from QWERTY to Colemak is the fastest and cheapest way to improve typing speed and health 😉.
+**Description:** Ideal for both new and experienced Colemak users, this community provides a space to ask questions, share tips, and discuss ergonomics, efficiency, and layout customization. It’s a great place to connect with others who prioritize comfort and productivity in typing. Remember: Switching from QWERTY to Colemak is the fastest and cheapest way to improve typing speed and health.
 
 ## Open Steno/ Plover
 
