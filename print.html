@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Fast and Strain‑Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</title>
+        <title>Fast and Strain-Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</title>
         <meta name="robots" content="noindex">
 
 
@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-7b9b68ce.js";
+            window.path_to_searchindex_js = "searchindex-fdb512cb.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-c947d839.js"></script>
+        <script src="toc-45cd058b.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -138,7 +138,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Fast and Strain‑Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</h1>
+                    <h1 class="menu-title">Fast and Strain-Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -182,6 +182,7 @@
 <p><strong>Author:</strong> <a href="mailto:robsi@duck.com">Robert Winkler</a></p>
 <p><strong>License:</strong> <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</a></p>
 <hr>
+<p><img src="figures/cover/cover-image.jpg" alt="Dactyl Manuform Keyboard Build"></p>
 <p><em>Build better keyboards, type faster, and protect your health.</em></p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="preface-about-this-book"><a class="header" href="#preface-about-this-book">Preface: About This Book</a></h1>
@@ -668,9 +669,210 @@ rules.mk
 <h4 id="leds"><a class="header" href="#leds">LEDs</a></h4>
 <p>For keyboard illumination.</p>
 <h2 id="manual-build-of-a-dactyl-manuform-keyboard"><a class="header" href="#manual-build-of-a-dactyl-manuform-keyboard">Manual Build of a Dactyl Manuform Keyboard</a></h2>
+<p>The Dactyl Manuform is a challenging but rewarding build that demonstrates all the key aspects of hand-wiring a split keyboard. Below is a visual guide to the construction process.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_shape-of-keyboard.jpg" alt="Dactyl Manuform 3D printed case halves showing ergonomic shape" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The distinctive 3D-printed case with ergonomic sculpting for each hand.
+  </figcaption>
+</figure>
 <h3 id="3d-printed-case"><a class="header" href="#3d-printed-case">3D-Printed Case</a></h3>
+<p>The Dactyl Manuform case is 3D printed in two halves (left and right). The design is parametrizable, allowing you to adjust the shape, tenting angle, and other ergonomic features to your preferences.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_wooden-base.jpg" alt="Dactyl Manuform with wooden base" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The case can be mounted on a wooden base for additional stability.
+  </figcaption>
+</figure>
+<h3 id="placing-the-microcontrollers"><a class="header" href="#placing-the-microcontrollers">Placing the Microcontrollers</a></h3>
+<p>Each half of the keyboard requires its own microcontroller (typically a Pro Micro or similar).</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform-placing_arduinos.jpg" alt="Placing Arduino Pro Micro controllers in Dactyl Manuform case" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Arduino Pro Micro controllers placed in their slots in the 3D-printed case.
+  </figcaption>
+</figure>
+<h3 id="wiring-the-matrix"><a class="header" href="#wiring-the-matrix">Wiring the Matrix</a></h3>
+<p>Hand-wiring requires patience and precision. Each switch needs to be connected in a matrix pattern.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_wiring.jpg" alt="Dactyl Manuform hand-wiring overview" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Overview of the hand-wiring. Each column and row is carefully soldered.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_wiring_detail.jpg" alt="Detail of wiring connections on Dactyl Manuform" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Close-up of the wiring detail showing diode placement and solder joints.
+  </figcaption>
+</figure>
+<h3 id="thumb-cluster"><a class="header" href="#thumb-cluster">Thumb Cluster</a></h3>
+<p>The thumb cluster is a distinctive feature of the Dactyl Manuform, providing comfortable access to modifier and layer keys.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_thumb_cluster.jpg" alt="Dactyl Manuform thumb cluster" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The thumb cluster with its ergonomic key arrangement.
+  </figcaption>
+</figure>
+<h3 id="final-assembly"><a class="header" href="#final-assembly">Final Assembly</a></h3>
+<p>After completing the wiring, the keyboard is ready for firmware flashing.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_final.JPG" alt="Completed Dactyl Manuform keyboard" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The finished Dactyl Manuform keyboard ready for use.
+  </figcaption>
+</figure>
+<h3 id="side-view"><a class="header" href="#side-view">Side View</a></h3>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_sideview.jpg" alt="Side view of Dactyl Manuform showing tenting angle" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Side view showing the tenting angle that reduces wrist strain.
+  </figcaption>
+</figure>
+<h3 id="reset-and-power-connections"><a class="header" href="#reset-and-power-connections">Reset and Power Connections</a></h3>
+<p>The keyboard halves need to be connected for power and data. A TRRS cable or similar connection is typically used.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_reset-button.jpg" alt="Reset button on Dactyl Manuform" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Reset button for firmware flashing.
+  </figcaption>
+</figure>
 <h2 id="designing-a-custom-keyboard"><a class="header" href="#designing-a-custom-keyboard">Designing a Custom Keyboard</a></h2>
 <p>The Keyboard-Layout-Editor.com (<a href="http://www.keyboard-layout-editor.com">http://www.keyboard-layout-editor.com</a>) is a web platform for designing physical keyboards. The editing advance can be saved using a GitHub account.</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="keyboard-photo-gallery"><a class="header" href="#keyboard-photo-gallery">Keyboard Photo Gallery</a></h1>
+<p>This chapter showcases various keyboards, builds, and workspace setups to give you a visual sense of the diversity in mechanical keyboards, especially in the ergonomic and split keyboard space.</p>
+<hr>
+<h2 id="split-keyboards"><a class="header" href="#split-keyboards">Split Keyboards</a></h2>
+<p>Split keyboards separate the keys into two halves, allowing you to position each half independently for better ergonomics.</p>
+<h3 id="corne-keyboards"><a class="header" href="#corne-keyboards">Corne Keyboards</a></h3>
+<p>The Corne (also known as Crkbd) is a popular 40% split keyboard with a columnar staggered layout.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/corne/corne-with-flat-keycaps.jpg" alt="Corne keyboard with flat keycaps" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Corne with flat keycaps for a uniform look.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/corne/corne-pcb.jpg" alt="Corne keyboard PCB" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The Corne PCB with per-key RGB lighting.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/corne/corne-thumb-keys.jpg" alt="Corne keyboard thumb keys" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Thumb cluster on the Corne keyboard.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/corne/corne-steno.jpg" alt="Corne keyboard configured for steno" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Corne configured for stenography.
+  </figcaption>
+</figure>
+<h3 id="kyria-keyboards"><a class="header" href="#kyria-keyboards">Kyria Keyboards</a></h3>
+<p>The Kyria is a split keyboard with support for OLEDs and rotary encoders.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/kyria/kyria-with-oleds-and-illumination.jpg" alt="Kyria keyboard with OLEDs and RGB illumination" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Kyria with OLED displays and RGB backlighting.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/kyria/kyria-sideview-with-encoder.jpg" alt="Kyria keyboard side view with rotary encoder" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Side view of Kyria showing the rotary encoder.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/kyria/kyria-with-steno-keycaps.jpg" alt="Kyria with steno keycaps" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Kyria configured with steno keycaps for chorded typing.
+  </figcaption>
+</figure>
+<h3 id="georgi-keyboards"><a class="header" href="#georgi-keyboards">Georgi Keyboards</a></h3>
+<p>The Georgi is a compact split keyboard designed specifically for stenography.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/georgi/georgi-keyboard.jpg" alt="Georgi steno keyboard" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The Georgi, a dedicated steno keyboard.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/georgi/georgi-pcb.jpg" alt="Georgi PCB" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Georgi PCB with NKRO (N-Key Rollover) support for steno.
+  </figcaption>
+</figure>
+<hr>
+<h2 id="comparisons"><a class="header" href="#comparisons">Comparisons</a></h2>
+<p>These comparison photos help visualize the size and layout differences between various keyboard models.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/comparisons/comparison-100-40-percent-keyboard.jpg" alt="Comparison of 100% and 40% keyboard sizes" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Full-size 100% keyboard compared to a compact 40% keyboard.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/comparisons/comparison_split-KBs_dactyl_manuform-kyria-georgi.jpg" alt="Comparison of split keyboards: Dactyl Manuform, Kyria, and Georgi" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Split keyboards comparison: Dactyl Manuform, Kyria, and Georgi.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/comparisons/comparison_footprint_dactyl_manuform-corne.jpg" alt="Footprint comparison between Dactyl Manuform and Corne" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Desk footprint comparison: Dactyl Manuform vs. Corne.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/comparisons/comparison_corne_georgi.jpg" alt="Comparison of Corne and Georgi keyboards" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Corne and Georgi side by side.
+  </figcaption>
+</figure>
+<hr>
+<h2 id="workspace-setups"><a class="header" href="#workspace-setups">Workspace Setups</a></h2>
+<p>How do these keyboards fit into real workspaces?</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/workspace/office-with-keyboards.jpg" alt="Office workspace with multiple keyboards" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Testing different keyboards in a real workspace.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/workspace/office-with-standing-desk-dactyl-and-multisteno.jpg" alt="Standing desk with Dactyl Manuform and multisteno keyboard" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Standing desk setup with Dactyl Manuform and multisteno for maximum productivity.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/workspace/multisteno-tripod.jpg" alt="Multisteno keyboard on a camera tripod" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Multisteno mounted on a tripod for optimal positioning.
+  </figcaption>
+</figure>
+<hr>
+<h2 id="miscellaneous-keyboards-and-accessories"><a class="header" href="#miscellaneous-keyboards-and-accessories">Miscellaneous Keyboards and Accessories</a></h2>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/misc/stack-of-keyboards.jpg" alt="Stack of various mechanical keyboards" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    A collection of keyboards: Kyria, Corne, and others.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/misc/changing_keycaps.jpg" alt="Changing keycaps on a mechanical keyboard" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Keycaps can be easily swapped to change the look and feel of your keyboard.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/misc/encoder-buttons.jpg" alt="Rotary encoder buttons" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Rotary encoders provide analog input for volume, scrolling, and other controls.
+  </figcaption>
+</figure>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="the-mouse-and-how-to-become-rat-free"><a class="header" href="#the-mouse-and-how-to-become-rat-free">The Mouse; and How to Become Rat-Free</a></h1>
 <h2 id="ergonomic-mice"><a class="header" href="#ergonomic-mice">Ergonomic Mice</a></h2>
@@ -804,7 +1006,7 @@ rules.mk
 <h2 id="qmk"><a class="header" href="#qmk">QMK</a></h2>
 <p><strong>Focus:</strong> Building, programming, and customizing keyboards using the <a href="https://qmk.fm/">QMK firmware</a>.<br><strong>Discord:</strong> <a href="https://discord.com/invite/qmk">Join the QMK Discord Server</a>.<br><strong>Description:</strong> The official QMK community is a hub for developers and hobbyists working with open-source keyboard firmware. Whether you’re debugging a keymap, designing a custom layout, or exploring advanced features like layers and macros, this server offers expert guidance and a welcoming atmosphere. Unfortunately, programming <em>Quantum Mechanical Keyboards</em> is addictive.</p>
 <h2 id="colemak"><a class="header" href="#colemak">Colemak</a></h2>
-<p><strong>Focus:</strong> Discussion, support, and advocacy for the <a href="https://colemak.org/">Colemak keyboard layout</a>.<br><strong>Discord:</strong> <a href="https://discord.com/invite/rpbxP2REjZ">Join the Colemak Community Discord Server</a>.<br><strong>Description:</strong> Ideal for both new and experienced Colemak users, this community provides a space to ask questions, share tips, and discuss ergonomics, efficiency, and layout customization. It’s a great place to connect with others who prioritize comfort and productivity in typing. Remember: Switching from QWERTY to Colemak is the fastest and cheapest way to improve typing speed and health 😉.</p>
+<p><strong>Focus:</strong> Discussion, support, and advocacy for the <a href="https://colemak.org/">Colemak keyboard layout</a>.<br><strong>Discord:</strong> <a href="https://discord.com/invite/rpbxP2REjZ">Join the Colemak Community Discord Server</a>.<br><strong>Description:</strong> Ideal for both new and experienced Colemak users, this community provides a space to ask questions, share tips, and discuss ergonomics, efficiency, and layout customization. It’s a great place to connect with others who prioritize comfort and productivity in typing. Remember: Switching from QWERTY to Colemak is the fastest and cheapest way to improve typing speed and health.</p>
 <h2 id="open-steno-plover"><a class="header" href="#open-steno-plover">Open Steno/ Plover</a></h2>
 <p><strong>Focus:</strong> Support and discussion for <a href="https://www.openstenoproject.org/plover/">Plover</a>, the open-source steno engine for machine shorthand.<br><strong>Discord:</strong> <a href="https://discord.me/plover">Join the Plover Discord Server</a>.<br><strong>Description:</strong> A friendly and active group for steno enthusiasts, Plover users, and anyone curious about stenography. Whether you’re a beginner learning steno or a professional stenographer, this community welcomes all skill levels and offers resources for improving speed, accuracy, and workflow integration. You will also find there a vibrant group of javelin experts. You don’t need to be a nerd to participate.</p>
 <h2 id="splitkbcom"><a class="header" href="#splitkbcom">Splitkb.com</a></h2>

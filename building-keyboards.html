@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>I&#x27;m a Maker! How to Build Your Keyboard(s) - Fast and Strain‑Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</title>
+        <title>I&#x27;m a Maker! How to Build Your Keyboard(s) - Fast and Strain-Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</title>
 
 
         <!-- Custom HTML head -->
@@ -35,10 +35,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-7b9b68ce.js";
+            window.path_to_searchindex_js = "searchindex-fdb512cb.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-c947d839.js"></script>
+        <script src="toc-45cd058b.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -137,7 +137,7 @@
                         </button>
                     </div>
 
-                    <h1 class="menu-title">Fast and Strain‑Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</h1>
+                    <h1 class="menu-title">Fast and Strain-Free Typing: A Pocket Guide to Mechanical Keyboards, Ergonomics, and Stenography</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -204,7 +204,74 @@
 <h4 id="leds"><a class="header" href="#leds">LEDs</a></h4>
 <p>For keyboard illumination.</p>
 <h2 id="manual-build-of-a-dactyl-manuform-keyboard"><a class="header" href="#manual-build-of-a-dactyl-manuform-keyboard">Manual Build of a Dactyl Manuform Keyboard</a></h2>
+<p>The Dactyl Manuform is a challenging but rewarding build that demonstrates all the key aspects of hand-wiring a split keyboard. Below is a visual guide to the construction process.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_shape-of-keyboard.jpg" alt="Dactyl Manuform 3D printed case halves showing ergonomic shape" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The distinctive 3D-printed case with ergonomic sculpting for each hand.
+  </figcaption>
+</figure>
 <h3 id="3d-printed-case"><a class="header" href="#3d-printed-case">3D-Printed Case</a></h3>
+<p>The Dactyl Manuform case is 3D printed in two halves (left and right). The design is parametrizable, allowing you to adjust the shape, tenting angle, and other ergonomic features to your preferences.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_wooden-base.jpg" alt="Dactyl Manuform with wooden base" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The case can be mounted on a wooden base for additional stability.
+  </figcaption>
+</figure>
+<h3 id="placing-the-microcontrollers"><a class="header" href="#placing-the-microcontrollers">Placing the Microcontrollers</a></h3>
+<p>Each half of the keyboard requires its own microcontroller (typically a Pro Micro or similar).</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform-placing_arduinos.jpg" alt="Placing Arduino Pro Micro controllers in Dactyl Manuform case" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Arduino Pro Micro controllers placed in their slots in the 3D-printed case.
+  </figcaption>
+</figure>
+<h3 id="wiring-the-matrix"><a class="header" href="#wiring-the-matrix">Wiring the Matrix</a></h3>
+<p>Hand-wiring requires patience and precision. Each switch needs to be connected in a matrix pattern.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_wiring.jpg" alt="Dactyl Manuform hand-wiring overview" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Overview of the hand-wiring. Each column and row is carefully soldered.
+  </figcaption>
+</figure>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_wiring_detail.jpg" alt="Detail of wiring connections on Dactyl Manuform" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Close-up of the wiring detail showing diode placement and solder joints.
+  </figcaption>
+</figure>
+<h3 id="thumb-cluster"><a class="header" href="#thumb-cluster">Thumb Cluster</a></h3>
+<p>The thumb cluster is a distinctive feature of the Dactyl Manuform, providing comfortable access to modifier and layer keys.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_thumb_cluster.jpg" alt="Dactyl Manuform thumb cluster" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The thumb cluster with its ergonomic key arrangement.
+  </figcaption>
+</figure>
+<h3 id="final-assembly"><a class="header" href="#final-assembly">Final Assembly</a></h3>
+<p>After completing the wiring, the keyboard is ready for firmware flashing.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_final.JPG" alt="Completed Dactyl Manuform keyboard" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    The finished Dactyl Manuform keyboard ready for use.
+  </figcaption>
+</figure>
+<h3 id="side-view"><a class="header" href="#side-view">Side View</a></h3>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_sideview.jpg" alt="Side view of Dactyl Manuform showing tenting angle" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Side view showing the tenting angle that reduces wrist strain.
+  </figcaption>
+</figure>
+<h3 id="reset-and-power-connections"><a class="header" href="#reset-and-power-connections">Reset and Power Connections</a></h3>
+<p>The keyboard halves need to be connected for power and data. A TRRS cable or similar connection is typically used.</p>
+<figure style="text-align: center; margin: 1.5em 0; padding: 0.5em; border: 1px solid #eee; background-color: #f9f9f9; border-radius: 4px; max-width: 100%;">
+  <img src="figures/dactyl-manuform/dactyl_manuform_reset-button.jpg" alt="Reset button on Dactyl Manuform" style="max-width: 100%; height: auto;" />
+  <figcaption style="font-style: italic; font-size: 0.9em; color: #555; margin-top: 0.5em; padding: 0.3em; background-color: #f0f0f0; border-radius: 0 0 4px 4px;">
+    Reset button for firmware flashing.
+  </figcaption>
+</figure>
 <h2 id="designing-a-custom-keyboard"><a class="header" href="#designing-a-custom-keyboard">Designing a Custom Keyboard</a></h2>
 <p>The Keyboard-Layout-Editor.com (<a href="http://www.keyboard-layout-editor.com">http://www.keyboard-layout-editor.com</a>) is a web platform for designing physical keyboards. The editing advance can be saved using a GitHub account.</p>
 
@@ -216,7 +283,7 @@
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="mouse-alternatives.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="keyboard-photo-gallery.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -230,7 +297,7 @@
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="mouse-alternatives.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="keyboard-photo-gallery.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
